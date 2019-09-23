@@ -3,7 +3,7 @@
 <manifest>
     <remote
         name="qf_code"
-        fetch="git@github.com:qingfengforum" />
+        fetch="https://github.com/qingfengforum/" />
     <remote
         name="proto_buf"
         fetch="git@github.com:qingfengforum/qf_protocol_buffer.git" />
@@ -13,11 +13,11 @@
         revision="master"
         sync-j="2" />
     
-    <project
-        name="QfCodeLib.git"
+    <!--project
+        name="qf_code_lib.git"
         group="qf"
         path="module/qf_code"
         remote="qf_code"
-        reveison="master"/>
+        reveison="master"/-->
 
 </manifest>
